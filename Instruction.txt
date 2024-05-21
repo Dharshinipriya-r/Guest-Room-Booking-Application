@@ -1,9 +1,9 @@
-Step 1: Download xampp
+Step 1: Download xampp 
 Step 2: Install visual code studio appp or other apps for run the code.
 Step 3: Extract the file and copy “Guest Room Booking Application” folder.
 Step 4: Paste inside root directory/ where you install xampp local disk C: drive D: drive E: paste: for xampp/htdocs.
 Step 5: Open PHPMyAdmin http://localhost/phpmyadmin
 Step 6: Create database name  guest_room_booking.
 Step 7: Import guest_room_booking.sql file given inside the zip package in SQL file folder
-Step 8: Run the script http://localhost/Guest Room Booking Application
+Step 8: Run the script  http://localhost/Guest Room Booking Application/homepage1.html
  
