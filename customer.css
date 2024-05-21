@@ -1,0 +1,106 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+background: #ffffff;
+background: linear-gradient(to bottom, #ffffff 0%,#e1e8ed 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e1e8ed',GradientType=0 );
+    height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+  
+}
+
+.container {
+  width: 300px ;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  margin-right:20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #1a821d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pro a {
+  color: black;
+ text-decoration: none;
+ text-transform: capitalize;
+ transition: 0.3x;
+ padding: 4px;
+ border-radius: 2px;
+ border:1px solid transparent;
+ 
+ gap: 16px;
+ flex-direction: row;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.project{
+  color:#1a821d;
+ 
+  font-size: 16px;
+ padding: 32px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ align-items: center;
+ flex-direction: row;
+}
+h1{
+  color:#1a821d;
+ 
+  font-size: 32px;
+ padding: 32px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ align-items: center;
+ flex-direction: row;
+}
+
+#hom{
+ color: #1a821d;
+}
+#register{
+ border: 1px solid #1a821d;
+}
+button:hover {
+  background-color:#1a821d;
+}

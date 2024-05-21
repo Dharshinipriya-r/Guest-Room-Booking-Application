@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <link rel="stylesheet" href="houseownerlogin.css">
+</head>
+<body>
+  <div class="project">
+    <h1>CartRabbit</h1>
+    <div class="pro">
+        <a href="homepage1.html" id="hom">Home</a>
+        <a href="https://cartrabbit.io/" id="hom">Help</a>
+        <a href="Sign in page.html" id="hom">Register</a>
+        <a href="login2.html" id="register">Login</a>
+    </div>
+    </div>
+  <div class="container">
+    <h2>create account</h2>
+    <form action="house owner sign in.php" method="POST">
+      <div class="input-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="mail@gmail.com" name="email" required>
+      </div>
+      <div class="input-group">
+        <label for="mobile">Mobile Number:</label>
+        <input type="text" id="mobile" placeholder="eg:9765423896" name="mobile" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password"  name="password" required>
+      </div>
+      <div class="form-group show-password">
+        <input type="checkbox" id="showPassword">
+        <label for="showPassword">Show Password</label>
+      </div><br>
+      <center><button type="submit">create account</button></center>
+    </form>
+  </div>
+  <script>
+    const passwordInput = document.getElementById('password');
+    const showPasswordCheckbox = document.getElementById('showPassword');
+
+    showPasswordCheckbox.addEventListener('change', function() {
+      const passwordType = this.checked ? 'text' : 'password';
+      passwordInput.setAttribute('type', passwordType);
+    });
+  </script>
+</body>
+</html>

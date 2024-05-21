@@ -1,0 +1,62 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin: left;
+}
+.pro a {
+     color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.3x;
+    padding: 4px;
+    border-radius: 2px;
+    border:1px solid transparent;
+    
+    gap: 16px;
+    flex-direction: row;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.project{
+    color:white;
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    flex-direction: row;
+}
+
+.bordered {
+    border: 2px solid white;
+    padding: 3px 5px;
+    background-color:#1a821d;
+  }
+#home{
+    color:white;
+}
+#register{
+    border: 1px solid white;
+}
+
+body {
+    background-image: url('house.jpeg');
+  }
+
+@keyframes ani{
+    0%{
+        width:0;
+        height:50%;
+    }
+    50%{
+        width:100%;
+        height:50%;
+    }
+    100%{
+        width:100%;
+        height:100%
+    }
+}

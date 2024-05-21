@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Booking Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Guest Room Booking</h1>
+    </header>
+    <main>
+        <section id="room-form">
+            <h2>Create Room</h2>
+            <form action="create.php" method="post" id="room-form">
+                <label> Categories </label>
+                <input type="text" id="room-name" placeholder="Room categories" name="categories" required>
+                <label> Details </label>
+                <input type="text" name="details" placeholder="Room details" class="form-control">
+                <label> Price per day </label>
+                <input type="number" name="price_per_day" id="rent-amount" placeholder="Rent Amount" required>
+                <label> Minimum booking period </label>
+                <input type="number" name="min_booking" id="min-booking-days" placeholder="Min Booking Days" required>
+                <label> Maximum booking period</label>
+                <input type="number" name="max_booking" id="max-booking-days" placeholder="Max Booking Days" required>
+                <input type="file" id="room-photo" accept="image/*" required>
+                <div class="button-container">
+                    <button type="submit" name="submit" class="save-button">Save</button>
+                    <button type="submit" name="cancel" href="index.php" class="cancel-button">Cancel</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+       
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
